@@ -16,6 +16,14 @@ public class Main {
 
         controlador.abrirConexion();
 
+        CursoController cursoController = new CursoController(vista);
+        String nombre = "Nuevo Curso Empresarial";
+        String descripcion = "Curso de 6 meses";
+        int estado = 1;
+
+        cursoController.agregarCurso(nombre, descripcion, estado);
+
+
 
     }
 }
