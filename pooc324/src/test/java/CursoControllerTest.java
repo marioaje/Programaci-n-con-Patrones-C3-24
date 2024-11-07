@@ -45,7 +45,7 @@ public class CursoControllerTest {
 
         //Verificamos que muestre el mensaje de los cursos o datos,
         //y que verifique si esta un dato en especifico
-        verify(mockView).mostrarMensaje("ID: 1, Nombre: Informatica, Descripcion: Ingenieria, Estado:1");
+        verify(mockView).mostrarMensaje("ID: 11 Nombre: Nuevo Curso Empresarial Descripcion: Curso de 6 meses Estado: 1");
 
 //        consoleView.mostrarMensaje("ID: " + item.getId() +
 //                " Nombre: " + item.getNombre() +
